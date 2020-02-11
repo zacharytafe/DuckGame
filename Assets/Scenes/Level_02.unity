@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 546680895}
   - component: {fileID: 546680894}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: Hill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -552,11 +552,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546680892}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 6.1, y: -1.9, z: 19.8}
-  m_LocalScale: {x: 20, y: 0.5, z: 20}
+  m_LocalScale: {x: 20, y: 0.50000024, z: 20}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1283861173}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &582339434
@@ -983,7 +983,7 @@ GameObject:
   - component: {fileID: 858193522}
   - component: {fileID: 858193521}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Hill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,11 +1041,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858193519}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 14.4, y: -1.9, z: 17.1}
-  m_LocalScale: {x: 15, y: 0.5, z: 10}
+  m_LocalScale: {x: 15, y: 0.50000024, z: 10}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1283861173}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &970655766
@@ -1450,6 +1450,9 @@ Transform:
   - {fileID: 2114899823}
   - {fileID: 582339438}
   - {fileID: 1390346067}
+  - {fileID: 858193523}
+  - {fileID: 1831044968}
+  - {fileID: 546680896}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2246,9 +2249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837f18a09c00a45e8a84a3c9a90460d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duckType: {fileID: 5205578295365927169, guid: 0892abda2c7d949f08e9d1236011dcff,
+  duckType: {fileID: 1443747371280098918, guid: 2e735a9b585dde74ca6e4aa03acf0d9d,
     type: 3}
-  startSpawn: 17
+  startSpawn: 3
   spawnRate: 11.3
 --- !u!4 &1714178385
 Transform:
@@ -2444,7 +2447,7 @@ GameObject:
   - component: {fileID: 1831044967}
   - component: {fileID: 1831044966}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: Hill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2502,11 +2505,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831044964}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -10.4, y: -1.9, z: 17.5}
-  m_LocalScale: {x: 20, y: 0.5, z: 20}
+  m_LocalScale: {x: 20, y: 0.50000024, z: 20}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1283861173}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1846066985
