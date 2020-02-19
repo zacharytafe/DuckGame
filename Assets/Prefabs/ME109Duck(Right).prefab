@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 4718087438679455371}
   - component: {fileID: 8479965774345684354}
   - component: {fileID: 1554627045890142722}
+  - component: {fileID: 1614037751932729295}
   m_Layer: 0
   m_Name: ME109Duck(Right)
   m_TagString: Untagged
@@ -307,6 +308,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a7474f0468842a18a29cba99178b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1614037751932729295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443747371280098918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbff91afabf591d47a4d497eb825752f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bomb: {fileID: 3549792226689403734, guid: 50327d080fd8b4c48aee8d60ea40412f, type: 3}
 --- !u!1 &1762449222153408900
 GameObject:
   m_ObjectHideFlags: 0
