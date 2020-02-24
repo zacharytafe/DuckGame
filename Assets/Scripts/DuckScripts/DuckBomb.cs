@@ -9,20 +9,25 @@ namespace DuckShoot
         public Rigidbody bomb;
         public Transform bombBay;
 
+        public float startSpawn;
+        public float spawnRate;
+
         // Start is called before the first frame update
         void Start()
         {
-
+            InvokeRepeating("Loose", startSpawn, spawnRate);
         }
 
         void Update()
         {
-            if(Input.GetKeyDown(KeyCode.V))
-            {
-                Rigidbody bombInstance;
-                bombInstance = Instantiate(bomb, bombBay.position, bombBay.rotation) as Rigidbody;
-                //bombInstance.AddForce(bombBay.down * 20f);
-            }
+                           
+        }
+
+        void Loose()
+        {
+            Rigidbody bombInstance;
+            bombInstance = Instantiate(bomb, bombBay.position, bombBay.rotation) as Rigidbody;
+            //bombInstance.AddForce(bombBay.down * 20f);
         }
     }
 }

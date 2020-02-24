@@ -354,6 +354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bomb: {fileID: 4618301188461348056, guid: 50327d080fd8b4c48aee8d60ea40412f, type: 3}
   bombBay: {fileID: 6929953250662405688}
+  startSpawn: 1.25
+  spawnRate: 2
 --- !u!114 &2272928857325629068
 MonoBehaviour:
   m_ObjectHideFlags: 0
