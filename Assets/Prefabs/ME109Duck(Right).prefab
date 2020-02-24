@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &145903864515671238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6929953250662405688}
+  m_Layer: 0
+  m_Name: BombBay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6929953250662405688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145903864515671238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.636, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2716018898324762499}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &473160170367499629
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,6 +228,7 @@ GameObject:
   - component: {fileID: 8479965774345684354}
   - component: {fileID: 1554627045890142722}
   - component: {fileID: 1614037751932729295}
+  - component: {fileID: 2272928857325629068}
   m_Layer: 0
   m_Name: ME109Duck(Right)
   m_TagString: Untagged
@@ -223,6 +254,7 @@ Transform:
   - {fileID: 8291938693236986919}
   - {fileID: 5893070438871309446}
   - {fileID: 1221002454644664189}
+  - {fileID: 6929953250662405688}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -320,7 +352,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbff91afabf591d47a4d497eb825752f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bomb: {fileID: 3549792226689403734, guid: 50327d080fd8b4c48aee8d60ea40412f, type: 3}
+  bomb: {fileID: 4618301188461348056, guid: 50327d080fd8b4c48aee8d60ea40412f, type: 3}
+  bombBay: {fileID: 6929953250662405688}
+--- !u!114 &2272928857325629068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443747371280098918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3d81325f396054c8a6a728cfdb0f32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startSore: 0
+  currentScore: 0
+  pointsValue: 0
+  scoreCount: {fileID: 0}
 --- !u!1 &1762449222153408900
 GameObject:
   m_ObjectHideFlags: 0

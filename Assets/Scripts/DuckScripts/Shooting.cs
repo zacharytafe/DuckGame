@@ -35,7 +35,7 @@ public class Shooting : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
+            // Debug.Log(hit.transform.name);
             Target duck = hit.transform.GetComponent<Target>();
             if (duck != null)
             {
