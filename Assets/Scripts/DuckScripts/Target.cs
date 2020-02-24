@@ -27,6 +27,7 @@ namespace DuckShoot
         void KnockedOver()
         {
             Destroy(gameObject);
+            
         }
     }
 }

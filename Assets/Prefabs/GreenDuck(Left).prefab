@@ -231,7 +231,8 @@ MonoBehaviour:
   startSore: 0
   currentScore: 0
   pointsValue: 0
-  scoreCount: {fileID: 0}
+  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
+    type: 3}
 --- !u!1 &2258707047642009402
 GameObject:
   m_ObjectHideFlags: 0
