@@ -146,8 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e43164b715c34f6993b4e8aa0bf34db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  metal: {fileID: 2812895022466598781, guid: 3d2a4b3458cfa4b45b83b6d3c062dcc9, type: 3}
+  health: 20
 --- !u!114 &2978954562034144643
 MonoBehaviour:
   m_ObjectHideFlags: 0
