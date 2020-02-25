@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  metal: {fileID: 2812895022466598781, guid: 3d2a4b3458cfa4b45b83b6d3c062dcc9, type: 3}
 --- !u!114 &6918282637896617407
 MonoBehaviour:
   m_ObjectHideFlags: 0

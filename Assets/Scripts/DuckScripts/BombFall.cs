@@ -8,16 +8,15 @@ namespace DuckShoot
     {
         public float bombSpeed = 10;
 
-        // Start is called before the first frame update
         void Awake()
         {
-            transform.Translate(Vector3.forward * bombSpeed * Time.deltaTime);
+
         }
 
         // Update is called once per frame
         void Update()
         {
-
+            transform.Translate(Vector3.back * bombSpeed * Time.deltaTime);
         }
     }
 }

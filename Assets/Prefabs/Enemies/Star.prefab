@@ -161,6 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  metal: {fileID: 2812895022466598781, guid: 3d2a4b3458cfa4b45b83b6d3c062dcc9, type: 3}
 --- !u!65 &6719580558303979926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -187,6 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+  metal: {fileID: 0}
 --- !u!114 &4925525497372265970
 MonoBehaviour:
   m_ObjectHideFlags: 0
