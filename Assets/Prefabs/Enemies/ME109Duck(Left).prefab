@@ -271,6 +271,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  gameSystem: {fileID: 7621452701430290830, guid: 6313995a289e48a4ca5208a85bd98e53,
+    type: 3}
 --- !u!114 &3437500763997793267
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ namespace DuckShoot
             health -= amount;
             if (health <= 0f)
             {
-            KnockedOver();
+                KnockedOver();
             }
         }
 

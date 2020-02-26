@@ -28,9 +28,9 @@ namespace DuckShoot
             }
         }
 
-        void AddScore()
+        public void AddScore()
         {
-            currentScore += 1;
+            currentScore = currentScore + 1;
             scoreCount.text = currentScore.ToString();
         }
     }
