@@ -33,7 +33,8 @@ public class Shooting : MonoBehaviour
     void Fire()
     {
         RaycastHit hit;
-        if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+            Ray ray = fpsCam.ScreenPointToRay(Input.mousePosition);
+        if(Physics.Raycast(ray, out hit, range))
         {
             // Debug.Log(hit.transform.name);
             Target duck = hit.transform.GetComponent<Target>();

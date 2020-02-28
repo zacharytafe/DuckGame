@@ -2,26 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gun : MonoBehaviour
+namespace DuckShoot
 {
-    private Vector2 mD;
-    private Transform myBody;
-
-    void Start()
+    public class Gun : MonoBehaviour
     {
-        myBody = this.transform.parent.transform;
-    }
+        void Start()
+        {
 
-    void Update()
-    {
-        Vector2 mC = new Vector2(Input.GetAxisRaw("Mouse X"),Input.GetAxisRaw("Mouse Y"));
+        }
 
-        mD += mC;
+        void Update()
+        {
+            faceMouse();
+        }
 
-        this.transform.localRotation = Quaternion.AngleAxis(mD.y, Vector3.left);
+        void faceMouse()
+        {
+            Vector3 mousePosition = Input.mousePosition;
+            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
-        myBody.localRotation = Quaternion.AngleAxis(mD.x, Vector3.up);
-
-        
+            Vector3 direction = new Vector3(
+                    mousePosition.x - transform.position.x,
+                    mousePosition.y - transform.position.y,                   
+                    mousePosition.z - transform.position.z                   
+                );
+            transform.forward = direction;
+        }
     }
 }

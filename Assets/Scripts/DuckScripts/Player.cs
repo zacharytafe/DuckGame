@@ -19,13 +19,14 @@ namespace DuckShoot
         {
             currentHealth = startHealth;
             healthCount.text = currentHealth.ToString();
-
-            Cursor.visible = false;
         }
 
         // Update is called once per frame
         void Update()
         {
+            //Cursor.visible = false;
+            //Cursor.lockState = CursorLockMode.Locked;
+
             if(currentHealth <= 0)
             {
                 Death();
