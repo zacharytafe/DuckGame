@@ -14,19 +14,18 @@ namespace DuckShoot
         public Text healthCount;
         public GameObject deathTest;
 
+
+
         // Start is called before the first frame update
         void Start()
         {
             currentHealth = startHealth;
-            healthCount.text = currentHealth.ToString();
+            healthCount.text = currentHealth.ToString();            
         }
 
         // Update is called once per frame
         void Update()
-        {
-            //Cursor.visible = false;
-            //Cursor.lockState = CursorLockMode.Locked;
-
+        {          
             if(currentHealth <= 0)
             {
                 Death();
