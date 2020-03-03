@@ -228,7 +228,6 @@ GameObject:
   - component: {fileID: 8479965774345684354}
   - component: {fileID: 1554627045890142722}
   - component: {fileID: 1614037751932729295}
-  - component: {fileID: 2272928857325629068}
   m_Layer: 0
   m_Name: ME109Duck(Right)
   m_TagString: Untagged
@@ -271,7 +270,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  gameSystem: {fileID: 7621452701430290830, guid: 6313995a289e48a4ca5208a85bd98e53,
+  pointsValue: 0
+  startSore: 0
+  currentScore: 0
+  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
     type: 3}
 --- !u!114 &3437500763997793267
 MonoBehaviour:
@@ -358,23 +360,6 @@ MonoBehaviour:
   bombBay: {fileID: 6929953250662405688}
   startSpawn: 1.25
   spawnRate: 2
---- !u!114 &2272928857325629068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443747371280098918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a3d81325f396054c8a6a728cfdb0f32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startSore: 0
-  currentScore: 0
-  pointsValue: 0
-  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
-    type: 3}
 --- !u!1 &1762449222153408900
 GameObject:
   m_ObjectHideFlags: 0

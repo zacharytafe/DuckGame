@@ -106,7 +106,6 @@ GameObject:
   - component: {fileID: 8685246868556315513}
   - component: {fileID: 6364285478607367575}
   - component: {fileID: 2922713869601414488}
-  - component: {fileID: 5797720692636968957}
   m_Layer: 0
   m_Name: GreenDuck(Left)
   m_TagString: Untagged
@@ -147,7 +146,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
-  gameSystem: {fileID: 6005387476500175033, guid: 0f56aeba938bdf241b7c0017cc566de9,
+  pointsValue: 0
+  startSore: 0
+  currentScore: 0
+  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
     type: 3}
 --- !u!114 &2978954562034144643
 MonoBehaviour:
@@ -218,23 +220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a7474f0468842a18a29cba99178b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5797720692636968957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1931272104426590519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a3d81325f396054c8a6a728cfdb0f32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startSore: 0
-  currentScore: 0
-  pointsValue: 0
-  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
-    type: 3}
 --- !u!1 &2258707047642009402
 GameObject:
   m_ObjectHideFlags: 0
