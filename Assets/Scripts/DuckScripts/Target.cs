@@ -9,6 +9,12 @@ namespace DuckShoot
     {
         public float health;
         public float pointsValue;
+        public float score;
+
+        public Text scoreCount;
+
+
+        //public GameObject gameSystem;
 
         // Start is called before the first frame update
         void Start()
@@ -21,6 +27,8 @@ namespace DuckShoot
             health -= amount;
             if (health <= 0f)
             {
+                // gameSystem.GetComponent<ScoreSystem>().AddPoints();
+                //AddPoints();
                 KnockedOver();
             }
         }
@@ -28,6 +36,12 @@ namespace DuckShoot
         public void KnockedOver()
         {
             Destroy(gameObject);
+        }
+
+        public void AddPoints()
+        {
+            score += 1;
+            scoreCount.text = score.ToString();
         }
     }
 }

@@ -47,5 +47,6 @@ public class Shooting : MonoBehaviour
             Destroy(impactGO, 2f);           
         }
     }
+
 }
 }
