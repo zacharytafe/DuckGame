@@ -1758,6 +1758,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1341832873}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1284559057 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
+    type: 3}
+  m_PrefabInstance: {fileID: 1341832873}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1336256813
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,10 +3306,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   range: 1000
+  score: 0
   fpsCam: {fileID: 1164299377}
   impactEffect: {fileID: 4156798784691290184, guid: d56ab3b09fb9c456b8acd3379f8224aa,
     type: 3}
   gunBang: {fileID: 1526207834}
+  scoreCount: {fileID: 1284559057}
 --- !u!1 &1917974590
 GameObject:
   m_ObjectHideFlags: 0
