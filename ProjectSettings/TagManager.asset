@@ -8,6 +8,9 @@ TagManager:
   - Goal
   - Ball
   - Projectile
+  - GreenDuck
+  - YellowDuck
+  - ME109Duck
   layers:
   - Default
   - TransparentFX

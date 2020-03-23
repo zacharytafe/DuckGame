@@ -8,16 +8,16 @@ namespace DuckShoot
     public class Target : MonoBehaviour
     {
         public float health;
-        public float pointsValue;
-        public float score;
+        public float pointsValue = 10;
 
-        public Text scoreCount;
-
-
-        //public GameObject gameSystem;
 
         // Start is called before the first frame update
         void Start()
+        {
+
+        }
+
+        void Update()
         {
 
         }
@@ -27,8 +27,6 @@ namespace DuckShoot
             health -= amount;
             if (health <= 0f)
             {
-                // gameSystem.GetComponent<ScoreSystem>().AddPoints();
-                //AddPoints();
                 KnockedOver();
             }
         }
@@ -38,10 +36,6 @@ namespace DuckShoot
             Destroy(gameObject);
         }
 
-        public void AddPoints()
-        {
-            score += 1;
-            scoreCount.text = score.ToString();
-        }
+        
     }
 }

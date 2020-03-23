@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 178369203437479813}
   m_Layer: 0
   m_Name: GreenDuck(Right)
-  m_TagString: Untagged
+  m_TagString: GreenDuck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,8 +134,8 @@ MonoBehaviour:
   health: 20
   pointsValue: 0
   score: 0
-  col1: {fileID: 6471758871282641291}
-  col2: {fileID: 8823700625468749019}
+  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
+    type: 3}
 --- !u!114 &8320917010920681721
 MonoBehaviour:
   m_ObjectHideFlags: 0

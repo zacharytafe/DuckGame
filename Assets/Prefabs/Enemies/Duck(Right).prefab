@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 1554627045890142722}
   m_Layer: 0
   m_Name: Duck(Right)
-  m_TagString: Untagged
+  m_TagString: YellowDuck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,8 +134,8 @@ MonoBehaviour:
   health: 10
   pointsValue: 0
   score: 0
-  col1: {fileID: 3928985961622380530}
-  col2: {fileID: 4718087438679455371}
+  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
+    type: 3}
 --- !u!114 &3437500763997793267
 MonoBehaviour:
   m_ObjectHideFlags: 0

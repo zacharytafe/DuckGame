@@ -266,7 +266,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  gameSystem: {fileID: 6005387476500175033, guid: 0f56aeba938bdf241b7c0017cc566de9,
+  pointsValue: 0
+  score: 0
+  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
     type: 3}
 --- !u!114 &1936992551170905023
 MonoBehaviour:
