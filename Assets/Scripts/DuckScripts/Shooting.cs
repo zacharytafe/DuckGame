@@ -72,6 +72,12 @@ public class Shooting : MonoBehaviour
                 scoreCount.text = score.ToString();
             }
 
+            if (hit.transform.tag == "Frigate")
+            {
+                score += 1;
+                scoreCount.text = score.ToString();
+            }
+
                 GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impactGO, 2f);           
         }
