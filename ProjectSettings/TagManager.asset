@@ -11,6 +11,7 @@ TagManager:
   - GreenDuck
   - YellowDuck
   - ME109Duck
+  - FrigateCrew
   layers:
   - Default
   - TransparentFX
