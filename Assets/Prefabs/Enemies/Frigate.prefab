@@ -764,6 +764,7 @@ GameObject:
   - component: {fileID: 4649304225366322863}
   - component: {fileID: 8744663156286117365}
   - component: {fileID: 8744663156286117366}
+  - component: {fileID: 1422837499802801419}
   m_Layer: 0
   m_Name: Frigate
   m_TagString: Frigate
@@ -780,7 +781,7 @@ Transform:
   m_GameObject: {fileID: 8744663156286117355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.67, y: 2.41, z: 12.44}
-  m_LocalScale: {x: 13.197635, y: 3.6617, z: 2.2111676}
+  m_LocalScale: {x: 13.19763, y: 3.6617, z: 2.2111676}
   m_Children:
   - {fileID: 8744663156292498162}
   - {fileID: 8744663156582566795}
@@ -868,6 +869,18 @@ MonoBehaviour:
   speed: 1
   goingRight: 1
   goingLeft: 0
+--- !u!114 &1422837499802801419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8744663156286117355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b55dbf31173e2c48b70525061cc5866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8744663156292498163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,10 +1844,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8744663156286117367}
     m_Modifications:
-    - target: {fileID: 100000, guid: d5848bf0105be72488d49a316944874f, type: 3}
-      propertyPath: m_Name
-      value: FrigateShip
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d5848bf0105be72488d49a316944874f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.036809
@@ -1890,6 +1899,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: d5848bf0105be72488d49a316944874f, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2798268
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d5848bf0105be72488d49a316944874f, type: 3}
+      propertyPath: m_Name
+      value: FrigateShip
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5848bf0105be72488d49a316944874f, type: 3}

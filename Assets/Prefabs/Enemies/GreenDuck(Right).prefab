@@ -133,9 +133,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 20
   pointsValue: 0
-  score: 0
-  scoreCount: {fileID: 7621452701430290864, guid: 6313995a289e48a4ca5208a85bd98e53,
-    type: 3}
 --- !u!114 &8320917010920681721
 MonoBehaviour:
   m_ObjectHideFlags: 0

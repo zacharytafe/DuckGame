@@ -161,8 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  gameSystem: {fileID: 6005387476500175033, guid: 0f56aeba938bdf241b7c0017cc566de9,
-    type: 3}
+  pointsValue: 10
 --- !u!65 &6719580558303979926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -189,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
-  gameSystem: {fileID: 0}
+  pointsValue: 10
 --- !u!114 &4925525497372265970
 MonoBehaviour:
   m_ObjectHideFlags: 0
