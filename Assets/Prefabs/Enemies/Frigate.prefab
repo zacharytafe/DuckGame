@@ -373,7 +373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bomb: {fileID: 8995886704309918967, guid: 28b438b734ca40e418dd67b8cc2e1a6f, type: 3}
   bombBay: {fileID: 8744663156711627055}
-  startSpawn: 4.1
+  startSpawn: 26.1
   spawnRate: 5
 --- !u!1 &8744663155832202962
 GameObject:
@@ -486,7 +486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bomb: {fileID: 8995886704309918967, guid: 28b438b734ca40e418dd67b8cc2e1a6f, type: 3}
   bombBay: {fileID: 8744663155541268780}
-  startSpawn: 3.5
+  startSpawn: 25.5
   spawnRate: 5
 --- !u!1 &8744663155934449162
 GameObject:
@@ -764,7 +764,7 @@ GameObject:
   - component: {fileID: 4649304225366322863}
   - component: {fileID: 8744663156286117365}
   - component: {fileID: 8744663156286117366}
-  - component: {fileID: 1422837499802801419}
+  - component: {fileID: 2290502608156162973}
   m_Layer: 0
   m_Name: Frigate
   m_TagString: Frigate
@@ -869,7 +869,7 @@ MonoBehaviour:
   speed: 1
   goingRight: 1
   goingLeft: 0
---- !u!114 &1422837499802801419
+--- !u!114 &2290502608156162973
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -878,9 +878,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8744663156286117355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b55dbf31173e2c48b70525061cc5866, type: 3}
+  m_Script: {fileID: 11500000, guid: 1734a109f2cea8b4881038a4247b9240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 67
 --- !u!1 &8744663156292498163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,7 +1565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bomb: {fileID: 8995886704309918967, guid: 28b438b734ca40e418dd67b8cc2e1a6f, type: 3}
   bombBay: {fileID: 8744663156136807696}
-  startSpawn: 3.8
+  startSpawn: 25.8
   spawnRate: 5
 --- !u!1 &8744663157135959437
 GameObject:

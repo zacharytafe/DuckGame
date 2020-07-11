@@ -13,6 +13,8 @@ TagManager:
   - ME109Duck
   - FrigateCrew
   - Frigate
+  - HealthPack
+  - Iceberg
   layers:
   - Default
   - TransparentFX

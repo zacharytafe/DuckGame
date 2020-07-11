@@ -39,7 +39,7 @@ public class MenuScenes : MonoBehaviour
 
     public void BackGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        SceneManager.LoadScene("Menu");
     }
 
 

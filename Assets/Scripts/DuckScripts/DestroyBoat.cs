@@ -16,11 +16,11 @@ public class DestroyBoat : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision col)
+    void OnCollisionEnter(Collision collision)
     {
-        if(col.gameObject.name == "Iceberg")
+        if(collision.gameObject)
         {
-            Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }

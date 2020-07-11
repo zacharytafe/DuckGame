@@ -17,6 +17,7 @@ public class Shooting : MonoBehaviour
     public AudioSource gunBang;
     public Text scoreCount;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -78,10 +79,17 @@ public class Shooting : MonoBehaviour
                 scoreCount.text = score.ToString();
             }
 
+            if (hit.transform.tag == "HealthPack")
+            {
+                //Add to health more health
+            }
+
                 GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impactGO, 2f);           
         }
     }
+    
+    
 
 }
 }

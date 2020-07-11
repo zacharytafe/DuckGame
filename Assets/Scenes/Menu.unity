@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -416,8 +416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 129.8}
-  m_SizeDelta: {x: 279.68, y: 88.86}
+  m_AnchoredPosition: {x: 0, y: 321.5}
+  m_SizeDelta: {x: 758.5, y: 328.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &216895999
 MonoBehaviour:
@@ -441,18 +441,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 46
+    m_FontSize: 140
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 140
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BALL GAME
+  m_Text: HAPPY HUNTINGS
 --- !u!222 &216896000
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -814,17 +814,17 @@ PrefabInstance:
     - target: {fileID: 7719039102877207287, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -56.1
+      value: -128
       objectReference: {fileID: 0}
     - target: {fileID: 7719039102877207287, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 91.43
+      value: 252.1
       objectReference: {fileID: 0}
     - target: {fileID: 7719039102877207287, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 42.78
+      value: 139.9
       objectReference: {fileID: 0}
     - target: {fileID: 7719039102877207287, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
@@ -865,6 +865,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Playgame
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719039102059972816, guid: b8019b40e3ba21e459901d9787b1e065,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.869995
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719039102059972816, guid: b8019b40e3ba21e459901d9787b1e065,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -130.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719039102059972816, guid: b8019b40e3ba21e459901d9787b1e065,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -72.2
       objectReference: {fileID: 0}
     - target: {fileID: 7719039102059972817, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
@@ -1075,17 +1090,17 @@ PrefabInstance:
     - target: {fileID: 7719039102877207287, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -122.2
+      value: -310
       objectReference: {fileID: 0}
     - target: {fileID: 7719039102877207287, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 91.43
+      value: 252.1
       objectReference: {fileID: 0}
     - target: {fileID: 7719039102877207287, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 42.78
+      value: 133.2
       objectReference: {fileID: 0}
     - target: {fileID: 7719039102877207287, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}
@@ -1126,6 +1141,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719039102059972816, guid: b8019b40e3ba21e459901d9787b1e065,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -94.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719039102059972816, guid: b8019b40e3ba21e459901d9787b1e065,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -72.1
       objectReference: {fileID: 0}
     - target: {fileID: 7719039102059972817, guid: b8019b40e3ba21e459901d9787b1e065,
         type: 3}

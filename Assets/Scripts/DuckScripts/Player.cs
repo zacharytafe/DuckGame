@@ -7,13 +7,13 @@ namespace DuckShoot
 {
     public class Player : MonoBehaviour
     {
-        private float startHealth = 100;
+        private float startHealth = 500;
         public float currentHealth;
         public float damageTake = 10;
 
         public Text healthCount;
         public GameObject deathTest;
-
+        public GameObject hurtScreen;
 
 
         // Start is called before the first frame update
@@ -39,6 +39,7 @@ namespace DuckShoot
                 currentHealth -= damageTake;
                 healthCount.text = currentHealth.ToString();
                 Destroy(collision.gameObject);
+                StartCoroutine(Hurt());
             }
             
         }
@@ -47,6 +48,14 @@ namespace DuckShoot
         {
             Time.timeScale = 0;
             deathTest.SetActive(true);
+        }
+
+        IEnumerator Hurt()
+        {
+            
+            hurtScreen.SetActive(true);
+            yield return new WaitForSeconds(1);
+            hurtScreen.SetActive(false);
         }
     }
 }
