@@ -42,6 +42,14 @@ public class MenuScenes : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
+    public void FreezeTime()
+    {
+        Time.timeScale = 0;
+    }
 
+    public void ResumeTime()
+    {
+        Time.timeScale = 1;
+    }
 }
 
